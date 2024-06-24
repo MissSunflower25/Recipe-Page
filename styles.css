@@ -1,0 +1,81 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f2ec;
+    line-height: 1.25rem;
+}
+
+/* /////////////
+    LAYOUT
+//////////////// */
+
+.introduction {
+    margin-bottom: 1.75em;
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.75em;
+}
+
+main {
+    margin: 2em auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.75em;
+    padding: 2em;
+}
+
+.prep-container {
+    background-color:#f3e5d8;
+    border-radius: 0.75em;
+    padding: 0 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* /////////////
+    STYLING 
+//////////////// */
+
+hr {
+    border: #f3e5d8 0.001em solid;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.prepTitle {
+    font-size: 1.25rem;
+}
+
+td {
+    border-bottom: 0.1em solid #f3e5d8 ;
+    padding: 0.75em ;
+}
+
+/* /////////////
+    MOBILE SCREEN  
+//////////////// */
+
+@media (min-width: 370px) and (max-width: 675px){
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        line-height: 1em;
+    }
+}
